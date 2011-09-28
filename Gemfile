@@ -17,9 +17,10 @@ gem "foreman"
 gem "simple_form"
 gem "activeadmin"
 gem 'sass-rails'
+gem 'mongrel', '1.2.0.pre2'
   
 group :development do
-  gem 'mongrel', '1.2.0.pre2'
+ 
   gem "nifty-generators"
 end
 
